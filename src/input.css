@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.section-height {
+    min-height: calc(100vh - 60px);
+}
+
+.delay-1 {
+    animation-delay: 2s;
+}
+
+.delay-2 {
+    animation-delay: 4s;
+}
+
+.delay-3 {
+    animation-delay: 6s;
+}
