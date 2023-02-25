@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+
 module.exports = {
   content: [`./build/**/*.{html, js}`],
   theme: {
@@ -9,9 +10,7 @@ module.exports = {
         lightblack: "#323",
       },
       fontFamily: {
-        sans: "Montserrat",
-        serif: "Lora",
-        cursive: "Allura",
+        sans: [`Montserrat`, `sans`],
       },
       keyframes: {
         "icon-float": {

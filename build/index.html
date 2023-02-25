@@ -7,15 +7,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DevDylan - Personal Portfolio</title>
-    <link rel="stylesheet" href="assets/fontawesome/css/fontawesome.css" />
-    <link rel="stylesheet" href="assets/fontawesome/css/solid.css" />
-    <link rel="stylesheet" href="assets/fontawesome/css/brands.css" />
+
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Allura&family=Montserrat:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
     <script defer src="js/main.js"></script>
+    <script
+      src="https://kit.fontawesome.com/8d9ba8ddc1.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body class="bg-whitesmoke dark:bg-flatblack dark:text-whitesmoke">
     <div
-      class="fixed top-0 left-0 -z-50 hidden h-screen w-full items-center justify-between px-14 font-cursive text-[25rem] font-extrabold text-purple-600 opacity-10 dark:text-purple-400 2xl:flex"
+      class="font-cursive fixed top-0 left-0 -z-50 hidden h-screen w-full items-center justify-between px-14 text-[25rem] font-extrabold text-purple-600 opacity-10 dark:text-purple-400 2xl:flex"
     >
       <h1 class="self-start">Dev</h1>
       <h1 class="self-end">Dylan</h1>
@@ -73,7 +81,7 @@
     <main>
       <section
         id="hero"
-        class="section-height mx-auto mb-12 flex max-w-7xl scroll-mt-16 flex-col justify-evenly gap-5 p-5 md:flex-row-reverse md:items-center md:justify-between"
+        class="section-height mx-auto mb-12 flex max-w-7xl scroll-mt-16 flex-col justify-evenly gap-5 p-5 md:flex-row-reverse md:items-center md:justify-between md:p-12"
       >
         <div
           class="relative mx-auto w-9/12 max-w-xs rounded-full shadow-lg shadow-purple-600 dark:shadow-purple-400 md:mt-5 md:mr-5 md:max-w-md md:self-start lg:max-w-lg"
@@ -138,9 +146,9 @@
 
       <section
         id="about"
-        class="section-height mx-auto max-w-7xl scroll-mt-16 items-center p-5 md:flex md:flex-col md:justify-center"
+        class="section-height mx-auto max-w-7xl scroll-mt-16 items-center p-5 md:flex md:flex-col md:justify-center md:p-12"
       >
-        <h2 class="my-3 text-center text-2xl font-medium md:mb-6 md:text-3xl">
+        <h2 class="my-3 text-center text-2xl font-bold md:mb-6 md:text-3xl">
           About Me
         </h2>
 
@@ -193,9 +201,9 @@
 
       <section
         id="projects"
-        class="section-height mx-auto max-w-7xl scroll-mt-16 p-5"
+        class="section-height mx-auto max-w-7xl scroll-mt-16 p-5 md:p-12"
       >
-        <h2 class="my-3 text-center text-2xl font-medium md:mb-6 md:text-3xl">
+        <h2 class="my-3 text-center text-2xl font-bold md:mb-6 md:text-3xl">
           Projects
         </h2>
 
@@ -214,9 +222,13 @@
             <p class="text-xl font-medium">Pasta Restaurant Landing Page</p>
 
             <div class="space-x-3 text-sm">
-              <a class="p-2">View Live</a>
+              <a class="space-x-1 p-2"
+                ><i class="fa-light fa-eye"></i> View Live</a
+              >
 
-              <a class="p-2">See Code</a>
+              <a class="space-x-1 p-2"
+                ><i class="fa-solid fa-code"></i> See Code</a
+              >
             </div>
           </div>
           <div
@@ -231,9 +243,13 @@
             <p class="text-xl font-medium">Anime Streaming Site</p>
 
             <div class="space-x-3 text-sm">
-              <a class="p-2">View Live</a>
+              <a class="space-x-1 p-2"
+                ><i class="fa-light fa-eye"></i> View Live</a
+              >
 
-              <a class="p-2">See Code</a>
+              <a class="space-x-1 p-2"
+                ><i class="fa-solid fa-code"></i> See Code</a
+              >
             </div>
           </div>
         </article>
@@ -241,14 +257,14 @@
 
       <section
         id="contact"
-        class="section-height mx-auto max-w-7xl scroll-mt-16 p-5 md:flex md:flex-col md:justify-center"
+        class="section-height mx-auto max-w-7xl scroll-mt-16 p-5 md:flex md:flex-col md:justify-center md:p-12"
       >
-        <h2 class="my-3 text-center text-2xl font-medium md:mb-6 md:text-3xl">
+        <h2 class="my-3 text-center text-2xl font-bold md:mb-6 md:text-3xl">
           Contact Me
         </h2>
 
         <article
-          class="flex flex-col gap-4 overflow-hidden rounded-lg sm:flex-row md:justify-center md:gap-6"
+          class="flex flex-col gap-4 overflow-hidden rounded-lg border border-purple-400 sm:flex-row md:justify-center md:gap-6"
         >
           <div class="flex w-full flex-col items-center justify-center p-4">
             <h3 class="text-xl font-bold sm:text-2xl">I'm open to:</h3>
