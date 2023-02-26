@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="md:scroll-smooth">
+<html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta name="author" content="DevDylan" />
@@ -23,16 +23,16 @@
   </head>
   <body class="bg-whitesmoke dark:bg-flatblack dark:text-whitesmoke">
     <div
-      class="font-cursive fixed top-0 left-0 -z-50 hidden h-screen w-full items-center justify-between px-14 text-[25rem] font-extrabold text-purple-600 opacity-10 dark:text-purple-400 2xl:flex"
+      class="fixed top-0 left-0 -z-50 hidden h-screen w-full items-center justify-between px-14 font-cursive text-[25rem] font-extrabold text-blue-300 opacity-10 dark:text-blue-300 2xl:flex"
     >
       <h1 class="self-start">Dev</h1>
       <h1 class="self-end">Dylan</h1>
     </div>
     <header class="sticky top-0 z-[99] w-full">
       <section
-        class="mx-auto flex max-w-7xl items-center justify-between rounded-b-md bg-white p-3 px-5 shadow-md shadow-purple-400 dark:bg-flatblack"
+        class="mx-auto flex max-w-7xl items-center justify-between rounded-b-md bg-white p-3 px-5 shadow-md shadow-blue-300 dark:bg-flatblack"
       >
-        <h1 class="text-3xl font-bold text-purple-600 dark:text-purple-400">
+        <h1 class="text-3xl font-bold text-blue-500 dark:text-blue-300">
           <a href="#">DevDylan</a>
         </h1>
 
@@ -45,18 +45,13 @@
           <a href="#contact">Contact Me</a>
         </nav>
 
-        <button
-          class="hidden rounded bg-purple-600 py-2 px-3 text-xl font-medium text-white dark:bg-purple-400 dark:text-flatblack md:block"
-        >
-          Hire Me
-        </button>
         <button id="open-nav" class="px-2 text-2xl font-bold md:hidden">
           &#9776;
         </button>
 
         <nav
           id="mobile-nav"
-          class="fixed top-0 left-0 z-[99] flex h-screen w-full origin-top scale-y-0 flex-col items-center justify-center gap-8 bg-whitesmoke transition-all dark:bg-flatblack md:hidden"
+          class="nav-shadow absolute top-0 right-0 z-[20] flex h-screen w-[75%] translate-x-[120%] flex-col items-center justify-center gap-8 bg-whitesmoke transition-all duration-500 dark:bg-flatblack md:hidden"
           aria-label="mobile-nav"
         >
           <button
@@ -68,12 +63,6 @@
           <a href="#about" class="text-2xl">About Me</a>
           <a href="#projects" class="text-2xl">Projects</a>
           <a href="#contact" class="text-2xl">Contact Me</a>
-
-          <a
-            href=""
-            class="w-40 rounded bg-purple-600 p-3 text-center text-2xl font-bold text-white dark:bg-purple-400 dark:text-flatblack"
-            >Hire Me</a
-          >
         </nav>
       </section>
     </header>
@@ -84,7 +73,7 @@
         class="section-height mx-auto mb-12 flex max-w-7xl scroll-mt-16 flex-col justify-evenly gap-5 p-5 md:flex-row-reverse md:items-center md:justify-between md:p-12"
       >
         <div
-          class="relative mx-auto w-9/12 max-w-xs rounded-full shadow-lg shadow-purple-600 dark:shadow-purple-400 md:mt-5 md:mr-5 md:max-w-md md:self-start lg:max-w-lg"
+          class="relative mx-auto w-9/12 max-w-xs rounded-full shadow-lg shadow-blue-300 dark:shadow-blue-300 md:mt-5 md:mr-5 md:max-w-md md:self-start lg:max-w-lg"
         >
           <img
             src="assets/img/profile-img.jpg"
@@ -95,12 +84,12 @@
           />
 
           <div
-            class="absolute top-0 left-0 z-10 flex h-12 w-12 animate-icon-float items-center justify-center rounded-full p-2 shadow-lg shadow-purple-400 backdrop-blur-md lg:h-20 lg:w-20"
+            class="absolute top-0 left-0 z-10 flex h-12 w-12 animate-icon-float items-center justify-center rounded-full p-2 shadow-lg shadow-blue-300 backdrop-blur-md lg:h-20 lg:w-20"
           >
             <img src="assets/img/html5.png" alt="HTML5" class="rounded-full" />
           </div>
           <div
-            class="delay-1 absolute bottom-5 left-5 z-10 flex h-12 w-12 animate-icon-float items-center justify-center rounded-full p-2 shadow-lg shadow-purple-400 backdrop-blur-md lg:h-20 lg:w-20"
+            class="delay-1 absolute bottom-5 left-5 z-10 flex h-12 w-12 animate-icon-float items-center justify-center rounded-full p-2 shadow-lg shadow-blue-300 backdrop-blur-md lg:h-20 lg:w-20"
           >
             <img
               src="assets/img/tailwind.png"
@@ -109,12 +98,12 @@
             />
           </div>
           <div
-            class="delay-2 absolute top-10 right-5 z-10 flex h-12 w-12 animate-icon-float items-center justify-center rounded-full p-2 shadow-lg shadow-purple-400 backdrop-blur-md lg:h-20 lg:w-20"
+            class="delay-2 absolute top-10 right-5 z-10 flex h-12 w-12 animate-icon-float items-center justify-center rounded-full p-2 shadow-lg shadow-blue-300 backdrop-blur-md lg:h-20 lg:w-20"
           >
             <img src="assets/img/css3.png" alt="CSS3" class="rounded-full" />
           </div>
           <div
-            class="delay-3 absolute -bottom-5 right-20 z-10 flex h-12 w-12 animate-icon-float items-center justify-center rounded-full p-2 shadow-lg shadow-purple-400 backdrop-blur-md lg:h-20 lg:w-20"
+            class="delay-3 absolute -bottom-5 right-20 z-10 flex h-12 w-12 animate-icon-float items-center justify-center rounded-full p-2 shadow-lg shadow-blue-300 backdrop-blur-md lg:h-20 lg:w-20"
           >
             <img
               src="assets/img/javascript.png"
@@ -124,23 +113,19 @@
           </div>
         </div>
 
-        <div
-          class="flex flex-col justify-start gap-5 md:mb-5 md:ml-5 md:self-end"
-        >
+        <div class="flex flex-col justify-start md:mb-5 md:ml-5 md:self-end">
+          <div class="mb-4 flex gap-8 text-2xl text-flatblack">
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-github"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+          </div>
           <h2 class="text-xl md:text-2xl lg:text-3xl">
             I'm Dylan and
             <span
-              class="block text-4xl font-bold text-purple-600 dark:text-purple-400 md:text-5xl lg:text-6xl"
+              class="block text-4xl font-bold text-blue-500 dark:text-blue-300 md:text-5xl lg:text-6xl"
               >I design and build visually attractive websites.</span
             >
           </h2>
-
-          <a
-            href=""
-            download
-            class="w-44 rounded-md bg-purple-600 p-3 text-center text-xl font-bold text-whitesmoke dark:bg-purple-400 dark:text-flatblack"
-            >Download CV</a
-          >
         </div>
       </section>
 
@@ -153,48 +138,26 @@
         </h2>
 
         <div
-          class="flex flex-col justify-between gap-8 text-center md:grid md:grid-cols-2 md:text-left md:text-xl"
+          class="flex flex-col justify-between gap-16 text-center md:grid md:grid-cols-2 md:gap-8 md:text-left md:text-xl"
         >
-          <p class="">
-            My name is Tubi Oluwatunmise and I am currently a 200 Level student
-            studying Chemistry Education. I am a frontend web developer with a
-            passion for creating beautiful websites that attract and keep the
-            attention of users while giving them a good user's experience.
-          </p>
+          <div class="flex flex-col items-center gap-4 md:items-start md:gap-8">
+            <p class="">
+              My name is Tubi Oluwatunmise and I am currently a 200 Level
+              student studying Chemistry Education. I am a frontend web
+              developer with a passion for creating beautiful websites that
+              attract and keep the attention of users while giving them a good
+              user's experience.
+            </p>
+
+            <a
+              href=""
+              download
+              class="text-md rounded-md bg-blue-500 p-3 text-center font-bold text-whitesmoke dark:bg-blue-300 dark:text-flatblack md:text-xl"
+              >Download CV</a
+            >
+          </div>
           <div class="">
-            <p>Technologies I currently work with are:</p>
-            <div class="my-2 flex flex-wrap gap-4">
-              <div
-                class="txt-sm flex flex-col items-center justify-center rounded-md border border-flatblack p-5 text-sm dark:border-whitesmoke"
-              >
-                <i class="fa-brands fa-html5 text-2xl"></i>
-                HTML
-              </div>
-              <div
-                class="txt-sm flex flex-col items-center justify-center rounded-md border border-flatblack p-5 text-sm dark:border-whitesmoke"
-              >
-                <i class="fa-brands fa-css3 text-2xl"></i>
-                CSS
-              </div>
-              <div
-                class="flex flex-col items-center justify-center rounded-md border border-flatblack p-5 text-sm dark:border-whitesmoke"
-              >
-                <i class="fa-brands fa-js text-2xl"></i>
-                JavaScript
-              </div>
-              <div
-                class="flex flex-col items-center justify-center rounded-md border border-flatblack p-5 text-sm dark:border-whitesmoke"
-              >
-                <i class="fa-brands fa-git text-2xl"></i>
-                Git
-              </div>
-              <div
-                class="flex flex-col items-center justify-center rounded-md border border-flatblack p-5 text-sm dark:border-whitesmoke"
-              >
-                <i class="fa-brands fa-github text-2xl"></i>
-                GitHub
-              </div>
-            </div>
+            <p>Languages and Tools I currently use include:</p>
           </div>
         </div>
       </section>
@@ -211,7 +174,7 @@
           class="flex flex-wrap items-center justify-evenly gap-y-4 p-5 md:flex-row md:flex-wrap"
         >
           <div
-            class="flex max-w-[275px] flex-col gap-4 rounded-md bg-white p-3 shadow-md shadow-purple-600 dark:bg-flatblack dark:text-whitesmoke dark:shadow-black md:max-w-xs"
+            class="flex max-w-[275px] flex-col gap-4 rounded-md bg-white p-3 shadow-md shadow-blue-300 dark:bg-flatblack dark:text-whitesmoke dark:shadow-blue-300 md:max-w-xs"
           >
             <img
               src="assets/img/pastacita.png"
@@ -222,17 +185,21 @@
             <p class="text-xl font-medium">Pasta Restaurant Landing Page</p>
 
             <div class="space-x-3 text-sm">
-              <a class="space-x-1 p-2"
-                ><i class="fa-light fa-eye"></i> View Live</a
+              <a
+                class="space-x-1 p-2"
+                href="https://dev-dylann.github.io/pastacita/build"
+                ><i class="fa-solid fa-eye"></i> View Live</a
               >
 
-              <a class="space-x-1 p-2"
+              <a
+                class="space-x-1 p-2"
+                href="https://github.com/Dev-Dylann/pastacita"
                 ><i class="fa-solid fa-code"></i> See Code</a
               >
             </div>
           </div>
           <div
-            class="flex max-w-[275px] flex-col gap-4 rounded-md bg-white p-3 shadow-md shadow-purple-600 dark:bg-flatblack dark:text-whitesmoke dark:shadow-black md:max-w-xs"
+            class="flex max-w-[275px] flex-col gap-4 rounded-md bg-white p-3 shadow-md shadow-blue-300 dark:bg-flatblack dark:text-whitesmoke dark:shadow-blue-300 md:max-w-xs"
           >
             <img
               src="assets/img/animedylan.png"
@@ -244,7 +211,7 @@
 
             <div class="space-x-3 text-sm">
               <a class="space-x-1 p-2"
-                ><i class="fa-light fa-eye"></i> View Live</a
+                ><i class="fa-solid fa-eye"></i> View Live</a
               >
 
               <a class="space-x-1 p-2"
@@ -264,11 +231,13 @@
         </h2>
 
         <article
-          class="flex flex-col gap-4 overflow-hidden rounded-lg border border-purple-400 sm:flex-row md:justify-center md:gap-6"
+          class="flex flex-col gap-4 overflow-hidden rounded-lg border border-blue-500 dark:border-blue-300 sm:flex-row md:justify-center md:gap-6"
         >
           <div class="flex w-full flex-col items-center justify-center p-4">
             <h3 class="text-xl font-bold sm:text-2xl">I'm open to:</h3>
-            <ul class="list-disc marker:text-purple-500 sm:text-lg">
+            <ul
+              class="list-disc marker:text-blue-500 dark:marker:text-blue-500 sm:text-lg"
+            >
               <li>Collaborate on projects</li>
               <li>Internships</li>
               <li>Paid Jobs</li>
@@ -277,7 +246,7 @@
           </div>
 
           <div
-            class="flex w-full flex-col items-center justify-center gap-7 bg-purple-400 p-4 md:gap-10 md:py-12"
+            class="flex w-full flex-col items-center justify-center gap-7 bg-blue-500 p-4 text-whitesmoke dark:bg-blue-300 dark:text-black md:gap-10 md:py-12"
           >
             <h3 class="text-lg font-bold sm:text-xl">You can reach me via:</h3>
 

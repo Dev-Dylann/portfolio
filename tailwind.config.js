@@ -11,6 +11,7 @@ module.exports = {
       },
       fontFamily: {
         sans: [`Montserrat`, `sans`],
+        cursive: [`Allura`, `cursive`],
       },
       keyframes: {
         "icon-float": {

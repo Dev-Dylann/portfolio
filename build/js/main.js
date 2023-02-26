@@ -5,16 +5,16 @@ const toggleNav = () => {
   const navLi = document.querySelectorAll(`#mobile-nav a`);
 
   openBtn.addEventListener(`click`, () => {
-    nav.classList.toggle(`scale-y-0`);
+    nav.classList.toggle(`translate-x-[120%]`);
   });
 
   closeBtn.addEventListener(`click`, () => {
-    nav.classList.toggle(`scale-y-0`);
+    nav.classList.toggle(`translate-x-[120%]`);
   });
 
   navLi.forEach((e) => {
     e.addEventListener(`click`, () => {
-      nav.classList.toggle(`scale-y-0`);
+      nav.classList.toggle(`translate-x-[120%]`);
     });
   });
 };

@@ -17,3 +17,7 @@
 .delay-3 {
     animation-delay: 6s;
 }
+
+.nav-shadow {
+    box-shadow: -5px 0px 15px #64b5f6;
+}
